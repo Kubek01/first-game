@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+}
+
+body,
+html {
+    overflow: hidden;
+}
+
+canvas {
+    outline: 1px solid black;
+}
+
+#scoreContainer {
+    position: absolute;
+    font-size: 4.5rem;
+    margin-left: 40%;
+}
+
+#scoreContainer #score {
+    position: absolute;
+    color: black;
+    margin-left: 0.75rem;
+    margin-top: 0.3rem;
+}
+
+#controls {
+    position: absolute;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+#controls code {
+    background-image: linear-gradient(to right top, rgb(58, 58, 58), rgb(83, 83, 83));
+    border: 1px solid black;
+    border-radius: 16px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding: 0.5rem;
+}
